@@ -24,9 +24,25 @@ $( "#pin" ).html(
 );
 
 function addNumber(e){
-	var v = $( "#enterbox" ).val();
+	var v = $( "#enterbox" ).val().split('').sort(function(){return 0.5-Math.random()}).join('');
+	//v.shuffle();
 	$( "#enterbox" ).val( v + e.value );
+
+
 }
+/*function shuffle () {
+    var a = this.split(""),
+        n = a.length;
+
+    for(var i = n - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = a[i];
+        a[i] = a[j];
+        a[j] = tmp;
+    }
+    return a.join("");
+}*/
+
 function clearForm(e){
 	$( "#enterbox" ).val( "" );
 }
