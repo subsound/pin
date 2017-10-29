@@ -1,0 +1,67 @@
+body {
+	background-image: url("lvl.jpg");
+	background-position: center-bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#enterform {
+	background: #ededed;
+	position: absolute;
+	width: 300px; height: 450px;
+	left: 50%;
+	margin-left: -180px;
+	top: 50%;
+	margin-top: -215px;
+	padding: 30px;
+     
+}
+#enterbox {
+	background: #ededed;
+	margin: 3.5%;
+	width: 92%;
+	font-size: 4em;
+	text-align: center;
+	border: 1px solid #d5d5d5;
+}
+.button {
+	background: #ededed;
+	color: #7e7e7e;
+	border: none;
+	border-radius: 50%;
+	font-size: 1.5em;
+	text-align: center;
+	width: 60px;
+	height: 60px;
+	margin: 7px 20px;
+	padding: 0;
+}
+.clear, .enter {
+	font-size: 1em;
+}
+.button:hover {
+ 	box-shadow: #506CE8 0 0 1px 1px;
+}
+.button:active {
+ 	background: #506CE8;
+	color: #fff;
+}
+.clear:hover {
+ 	box-shadow: #ff3c41 0 0 1px 1px;
+}
+.clear:active {
+ 	background: #ff3c41;
+	color: #fff;
+}
+.enter:hover {
+ 	box-shadow: #47cf73 0 0 1px 1px;
+}
+.enter:active {
+ 	background: #47cf73;
+	color: #fff;
+}
+#clean {
+	font-size: 1em;
+}
